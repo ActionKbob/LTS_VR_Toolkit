@@ -3,8 +3,9 @@ using Unity.Mathematics;
 
 namespace LTSVRToolkit
 {
-	public struct XRInput : IComponentData
+	[GenerateAuthoringComponent]
+	public struct XRInternalData : IComponentData
 	{
-		public float2 PrimaryAxis;
+		
 	}
 }
